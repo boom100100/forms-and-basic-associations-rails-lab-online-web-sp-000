@@ -5,5 +5,8 @@
 <input name='song[note_contents][]' id='song_notes_attributes_0_content'>
 <input name='song[note_contents][]' id='song_notes_attributes_1_content'>
 <input name='song[note_contents][]' id='song_notes_3'>
+<% @song.notes.each do |note| %>
+...
+<% end %>
 <%= f.submit %>
 <% end %>
